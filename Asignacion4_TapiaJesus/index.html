@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jugando con formularios</title>
+</head>
+<h1>Students Data entry Form</h1>
+<body>
+    <form action="">
+        <label for="Nombre">Student Name:</label>
+        <input type="text" name="Nombre">
+        <br/>
+        <label for="Correo">Email:</label>
+        <input type="email" name="Correo" placeholder="correo@tucorreo.com">
+        <br/>
+        <label for="Genero">Gender</label>
+        <label for="masculino">Boy</label>
+        <input type="radio" name="Genero" value="masculino">
+        <label for="femenino">Girl</label>
+        <input type="radio" name="Genero" value="femenino">
+        <br/>
+        <label for="Materias">Gender</label>
+        <input type="checkbox" name="Materias" value="tamil">
+        <label for="tamil">Tamil</label>
+        <input type="checkbox" name="Materias" value="telugu">
+        <label for="telugu">Telugu</label>
+        <input type="checkbox" name="Materias" value="english">
+        <label for="english">English</label>
+        <input type="checkbox" name="Materias" value="physics">
+        <label for="physics">Physics</label>
+        <input type="checkbox" name="Materias" value="economics">
+        <label for="economics">Economics</label>
+        <br/>
+        <label for="ciudad">City/Town:</label>
+        <select name="ciudad" id="ciudad">
+            <option value="madurari">Madurai</option>
+            <option value="cdobregon">Cd. Obregón</option>
+            <option value="guasave">Guasave</option>
+            <option value="chinatown">China Town</option>
+            <option value="guadalajara">Guadalajara</option>
+        </select>
+        <label for="comentarios">Comments:</label>
+        <br/>
+        <textarea name="comentarios" id="comentarios"></textarea>
+        <br/>
+        <input type="reset" name="Clear">
+        <input type="submit" name="submit">
+
+    </form>
+</body>
+</html>
